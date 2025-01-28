@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedServe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">SpeedServe</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#plans" class="hover:text-yellow-400">Plans</a></li>
+                    <li><a href="#features" class="hover:text-yellow-400">Features</a></li>
+                    <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-white py-20">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-4xl font-bold mb-4">Experience the Fastest Internet with SpeedServe</h2>
+            <p class="text-lg mb-6">Join millions who trust us for high-speed internet services and reliable connections.</p>
+            <a href="#plans" class="bg-yellow-400 text-blue-800 font-semibold py-2 px-4 rounded-lg hover:bg-yellow-500">View Plans</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="bg-gray-200 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Why Choose SpeedServe?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-4">Blazing Fast Speeds</h3>
+                    <p class="text-gray-700">Experience uninterrupted streaming, gaming, and browsing with our ultra-fast internet plans.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-4">24/7 Customer Support</h3>
+                    <p class="text-gray-700">Our dedicated support team is here to assist you anytime, day or night.</p>
+                </div>
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-4">Affordable Pricing</h3>
+                    <p class="text-gray-700">Get the best value for your money with our competitively priced internet plans.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section id="plans" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Our Plans</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Plan Card -->
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-4">Basic Plan</h3>
+                    <p class="text-gray-600 mb-4">Up to 50 Mbps</p>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹499/month</p>
+                    <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Subscribe</a>
+                </div>
+                <!-- Plan Card -->
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-4">Standard Plan</h3>
+                    <p class="text-gray-600 mb-4">Up to 100 Mbps</p>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹799/month</p>
+                    <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Subscribe</a>
+                </div>
+                <!-- Plan Card -->
+                <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+                    <h3 class="text-xl font-bold mb-4">Premium Plan</h3>
+                    <p class="text-gray-600 mb-4">Up to 200 Mbps</p>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹1299/month</p>
+                    <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-200 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">About Us</h2>
+            <p class="text-gray-700">At SpeedServe, we are committed to providing top-notch internet services that cater to your everyday needs. Our mission is to deliver fast, reliable, and affordable internet to households and businesses across the country. With cutting-edge technology and an extensive network, we ensure you stay connected to what matters most.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+            <form class="max-w-lg mx-auto bg-white shadow-lg rounded-lg p-6">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                    <input type="text" id="name" class="w-full border-gray-300 rounded-lg focus:ring focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+                    <input type="email" id="email" class="w-full border-gray-300 rounded-lg focus:ring focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                    <textarea id="message" rows="4" class="w-full border-gray-300 rounded-lg focus:ring focus:ring-blue-500"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 SpeedServe. All rights reserved. | Powered by Innovation</p>
+        </div>
+    </footer>
+</body>
+</html>
